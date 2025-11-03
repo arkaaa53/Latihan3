@@ -1,0 +1,94 @@
+body{
+    font-family: poppins;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.kotak_besar{
+    position: relative;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    padding: 32px 24px;
+    width: 360px;
+    text-align: center;
+    border-bottom: 4px solid #3b82f6;
+}
+
+.kotak_atas{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.completed {
+    top: 12px;
+    left: 12px;
+    background-color: #e6fff2;
+    color: #0e6c51;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 8px;
+    border: solid 1px rgb(162, 225, 162);
+}
+
+.logo img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: -10px
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: -15px;
+}
+
+.kata_kata {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 24px;
+}
+
+.kotakan_statistik {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.kotakandalam_statistik {
+    text-align: center;
+    border: dashed 2px #d3d3d3;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+}
+
+.nilai {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+    text-align: left;
+    margin-bottom: -5px;
+}
+
+.tulisan_statistik {
+    font-size: 12px;
+    color: #6b7280;
+}
+
+i{
+    color: #6b7280;
+}
